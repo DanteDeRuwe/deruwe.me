@@ -1,0 +1,31 @@
+<head>
+    <meta charset="utf-8" />
+    {{if eq .Title .Site.Params.Brand}}
+    <title>{{ .Title }}</title>
+    {{else}}
+    <title>{{ .Title }} | {{.Site.Params.Brand}}</title>
+    {{end}}
+  
+    {{ "<!-- mobile responsive meta -->" | safeHTML }}
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    {{ with .Site.Params.author }}
+    <meta name="author" content="{{ . }}">
+    {{ end }}
+    {{ hugo.Generator }}
+  
+    {{ "<!-- Bootstrap -->" | safeHTML }}
+    {{ $bootstrap := resources.Get "css/bootstrap.css" | minify }}
+    <link rel="stylesheet" href="{{ $bootstrap.Permalink }}" />
+    {{ "<!-- font-awesome -->" | safeHTML }}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous"/>
+    {{ "<!-- devicons -->" | safeHTML }}
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"/>
+    {{ "<!-- Main Stylesheets -->" | safeHTML }}
+    {{ $style := resources.Get "scss/style.scss" | resources.ToCSS | minify }}
+    <link href="{{ $style.Permalink }}" rel="stylesheet" />
+  
+    <!--Favicon-->
+    <link rel="shortcut icon" href="{{ "images/favicon.png" | absURL }}" type="image/x-icon" />
+    <link rel="icon" href="{{ "images/favicon.ico" | absURL }}" type="image/x-icon" />
+  </head>

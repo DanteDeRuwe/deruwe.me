@@ -1,3 +1,58 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL       = "/"
+languageCode  = "en-US"
+title         = "Dante De Ruwe"
+theme         = "deruwe.me"
+
+# Site Params
+[params]
+  brand     = "Dante De Ruwe"
+  dateFormat = "02 JAN 2006"
+  # Meta data
+  description = "Personal website of Dante De Ruwe, student & developer from Flanders, Belgium."
+  author = "Dante De Ruwe"
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Home"
+    url     = ""
+    weight  = 1
+  [[menu.nav]]
+    name    = "About Me"
+    url     = "about"
+    weight  = 2
+  [[menu.nav]]
+    name    = "Projects"
+    url     = "trainingen"
+    weight  = 3
+  [[menu.nav]]
+    name    = "CV"
+    url     = "cv"
+    weight  = 4
+  [[menu.nav]]
+    name    = "Contact"
+    url     = "contact"
+    weight  = 5
+
+# Banner Section
+[params.banner]
+enable                = true
+background_image      = ""
+heading               = "Dante De Ruwe"
+tagline               = "STUDENT // FULL-STACK DEVELOPER"
+primary_button        = "What I do"
+primary_button_url    = "projects"
+secondary_button      = "Contact me!"
+secondary_button_url  = "contact"
+
+
+[params.footer]
+# Footer Contact Info
+[params.footer.contactInfo]
+    title   = "Email"
+    email   = "dantederuwe@gmail.com"
+
+    # Footer Sitemap
+    [params.footer.sitemap]
+    title   = "Sitemap"
