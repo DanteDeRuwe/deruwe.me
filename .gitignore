@@ -1,0 +1,27 @@
+### Code ###
+.vscode
+!.vscodesettings.json
+!.vscodetasks.json
+!.vscodelaunch.json
+!.vscodeextensions.json
+.code-workspace
+
+### Hugo ###
+# Generated files by hugo
+public
+resources/_gen/
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+### Sass ###
+.sass-cache
+.css.map
+.sass.map
+.scss.map
+
+
+### Prettier ###
+.prettierignore
