@@ -1,0 +1,31 @@
+icons:
+  - class: "fab fa-linkedin"
+    link: "https://linkedin.com/in/DanteDeRuwe"
+    highlight: true
+  - class: "fab fa-github"
+    link: "https://github.com/DanteDeRuwe"
+    highlight: true
+  - class: "fab fa-github-square"
+    link: "https://github.com/dantederuwe-hogent"
+    highlight: false
+  - class: "fab fa-stack-overflow"
+    link: "https://stackoverflow.com/users/12641623/dante"
+    highlight: false
+  - class: "fab fa-twitter"
+    link: "https://twitter.com/DanteDeRuwe"
+    highlight: false
+  - class: "fab fa-facebook-messenger"
+    link: "https://m.me/DanteDeRuwe"
+    highlight: true
+  - class: "fab fa-facebook"
+    link: "https://facebook.com/DanteDeRuwe"
+    highlight: false
+  - class: "fab fa-instagram"
+    link: "https://instagram.com/DanteDeRuwe"
+    highlight: false
+  - class: "fab fa-hackerrank"
+    link: "https://hackerrank.com/DanteDeRuwe"
+    highlight: false
+  - class: "fab fa-spotify"
+    link: "https://open.spotify.com/user/1110047932"
+    highlight: false

@@ -1,0 +1,17 @@
+.site-icons {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  position: absolute;
+  justify-content: center;
+  gap: 0.5rem;
+  height: 100vh;
+  left: 2rem;
+  top: 0;
+  i {
+    color: $text-color;
+    &:hover {
+      color: darken($text-color, 20);
+    }
+  }
+}
