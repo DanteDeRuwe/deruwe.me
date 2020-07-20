@@ -2,13 +2,10 @@
   font-family: $secondary-font;
   border: none;
   color: $white !important;
-  padding: 1.5rem 3rem;
+  padding: 1rem 2rem;
   border-radius: 0;
   &:focus {
     box-shadow: none;
-  }
-  @include desktop {
-    padding: 17px 40px;
   }
   .btn-area {
     display: block;
@@ -22,10 +19,11 @@
 }
 
 .btn-sm {
-  padding: 15px 40px !important;
+  padding: 10px 30px !important;
+  font-size: 0.8rem;
 }
 
-.btn-sm-rounded {
+.btn-rounded {
   border-radius: 40px;
 }
 
@@ -42,41 +40,5 @@
   color: $white;
   &:hover {
     background: darken($color: $secondary-color, $amount: 10);
-  }
-}
-
-.btn-offset {
-  background: none;
-  border: 4px solid;
-
-  background-color: white;
-
-  $effect-strenght: 0.4rem;
-  padding: 1.4rem 2.5rem 1rem 2.5rem;
-
-  &.btn-primary {
-    color: $primary-color !important;
-    box-shadow: $effect-strenght $effect-strenght 0 0 $primary-color,
-      inset $effect-strenght $effect-strenght 0 0 $primary-color;
-  }
-  &.btn-secondary {
-    color: $secondary-color !important;
-    box-shadow: $effect-strenght $effect-strenght 0 0 $secondary-color,
-      inset $effect-strenght $effect-strenght 0 0 $secondary-color;
-  }
-
-  transition: 0.25s;
-  &:hover {
-    border-color: transparent;
-    box-shadow: none;
-    color: white !important;
-    .btn-area {
-      transform: translate(-$effect-strenght * 0.5, -$effect-strenght * 0.5);
-      transition: transform 0.25s;
-    }
-  }
-  &:focus {
-    border: 4px dashed black;
-    box-shadow: none;
   }
 }

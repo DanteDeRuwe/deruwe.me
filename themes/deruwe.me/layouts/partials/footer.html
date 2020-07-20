@@ -1,34 +1,17 @@
+{{with .Site.Data.footer}}
 <footer class="site-footer">
     <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="site-footer-widget">
-            <h5 class="site-footer-widget-title">{{ .Site.Params.footer.sitemap.title }}</h5>
-            <ul class="site-footer-widget-links">
-              {{ range (.Site.Menus.nav) }}
-              <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
-              {{ end }}
-            </ul>
-          </div>
-        </div>
-  
-        {{ with .Site.Params.footer.contactInfo }}
-        <div class="col-md-6">
-          <div class="site-footer-widget">
-            <h5 class="site-footer-widget-title">{{ .title }}</h5>
-            <p class="site-footer-widget-description">
-              <a href="mailto:{{ .email }}">{{ .email }}</a>
-            </p>
-          </div>
-        </div>
-        {{ end }}
-  
+      <div class="site-footer-social">
+        {{range .socialicons}}
+          <a href="{{.link}}" target="_blank"><i class="{{.class}}"></i></a>
+        {{end}}
       </div>
     </div>
     <small class="site-footer-copyright">Made with ☕ by Dante De Ruwe - © {{now.Format "2006"}}</small>
-  </footer>
-  
-  {{ $script := resources.Get "js/script.js" | minify }}
-  <script src="{{ $script.Permalink }}"></script>
-  {{ $script := resources.Get "js/vendor.js" | minify }}
-  <script src="{{ $script.Permalink }}"></script>
+</footer>
+{{end}}
+
+{{ $script := resources.Get "js/script.js" | minify }}
+<script src="{{ $script.Permalink }}"></script>
+{{ $script := resources.Get "js/vendor.js" | minify }}
+<script src="{{ $script.Permalink }}"></script>

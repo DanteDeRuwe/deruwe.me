@@ -1,12 +1,12 @@
 //site color variables
-$body-color: #fff;
-$primary-color: #4b7bec;
-$secondary-color: #333333;
-$text-color: #333333;
-$text-color-dark: darken($secondary-color, 40);
+$body-color: linear-gradient(to right, #100f2e, #0a0919);
+$primary-color: #f38926;
+$secondary-color: #0a0919;
+$text-color: #fff;
 $site-ease: cubic-bezier(0.36, 0.03, 0, 0.91);
 $gray: #f7f9ff;
 $dark-gray: #646569;
+$nav-background: $body-color;
 
 // solid colors
 $white: #fff;
@@ -14,4 +14,5 @@ $black: #000;
 
 // Font Variables
 $primary-font: "Montserat", "Segoe UI", sans-serif;
-$secondary-font: "Nunito", $primary-font;
+$secondary-font: "Raleway", $primary-font;
+$nav-brand-font: "Nunito", $primary-font;

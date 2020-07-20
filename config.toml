@@ -24,7 +24,7 @@ theme         = "deruwe.me"
     weight  = 2
   [[menu.nav]]
     name    = "Projects"
-    url     = "trainingen"
+    url     = "projects"
     weight  = 3
   [[menu.nav]]
     name    = "CV"
@@ -45,14 +45,4 @@ primary_button        = "What I do"
 primary_button_url    = "projects"
 secondary_button      = "Contact me!"
 secondary_button_url  = "contact"
-
-
-[params.footer]
-# Footer Contact Info
-[params.footer.contactInfo]
-    title   = "Email"
-    email   = "dantederuwe@gmail.com"
-
-    # Footer Sitemap
-    [params.footer.sitemap]
-    title   = "Sitemap"
+    
