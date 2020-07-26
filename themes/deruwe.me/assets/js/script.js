@@ -9,11 +9,14 @@ $(document).ready(function () {
   // Smooth scroll
   $("a.scroll-to").on("click", function (event) {
     var $anchor = $(this);
+    var href = $anchor.attr("href")
+    href = href.substring(href.lastIndexOf("#"))
+    console.log(href);
     $("html, body")
       .stop()
       .animate(
         {
-          scrollTop: $($anchor.attr("href")).offset().top - 50,
+          scrollTop: $(href).offset().top - 50,
         },
         700
       );

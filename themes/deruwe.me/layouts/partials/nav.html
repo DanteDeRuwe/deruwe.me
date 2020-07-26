@@ -16,28 +16,28 @@
   
       <div class="collapse navbar-collapse" id="sitenavbar">
         <ul class="navbar-nav ml-auto main-nav">
-          {{$menu := (.Site.Menus.nav)}} 
+          {{$menu := (.Site.Data.nav)}} 
           {{$len := (len $menu)}} 
           {{ range $index, $element := $menu }} 
             {{ if eq (add $index 1) $len }}
             <li class="nav-item">
               <a
                 class="nav-link btn btn-sm btn-primary btn-rounded"
-                href="{{ .URL | absURL }}"
+                href="{{ .url | absURL }}"
               >
                 <span class="btn-area">
-                  <span data-text="{{ .Name }}">
-                    {{ .Name }}
+                  <span data-text="{{ .name }}">
+                    {{ .name }}
                   </span>
                 </span>
               </a>
             </li>
             {{ else }}
             <li class="nav-item">
-              {{if hasPrefix .URL "#"}}
-                <a class="nav-link scroll-to" href="{{ .URL }}">{{ .Name }}</a>
+              {{if .scroll}}
+                <a class="nav-link scroll-to" href="{{ .url | absURL}}{{.scroll}}">{{ .name }}</a>
               {{else}}
-                <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
+                <a class="nav-link" href="{{ .url | absURL }}">{{ .name }}</a>
               {{end}}
             </li>
             {{ end }} 
