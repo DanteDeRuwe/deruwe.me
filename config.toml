@@ -11,30 +11,6 @@ theme         = "deruwe.me"
   description = "Personal website of Dante De Ruwe, student & developer from Flanders, Belgium."
   author = "Dante De Ruwe"
 
-# Site Menus
-[menu]
-  # Navbar Menus
-  [[menu.nav]]
-    name    = "Home"
-    url     = ""
-    weight  = 1
-  [[menu.nav]]
-    name    = "About Me"
-    url     = "#site-about"
-    weight  = 2
-  [[menu.nav]]
-    name    = "Projects"
-    url     = "projects"
-    weight  = 3
-  [[menu.nav]]
-    name    = "CV"
-    url     = "https://cv.deruwe.me"
-    weight  = 4
-  [[menu.nav]]
-    name    = "Contact"
-    url     = "contact"
-    weight  = 5
-
 # Banner Section
 [params.banner]
 enable                = true
