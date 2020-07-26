@@ -28,7 +28,7 @@ theme         = "deruwe.me"
     weight  = 3
   [[menu.nav]]
     name    = "CV"
-    url     = "cv"
+    url     = "https://cv.deruwe.me"
     weight  = 4
   [[menu.nav]]
     name    = "Contact"
@@ -41,7 +41,7 @@ enable                = true
 background_image      = ""
 heading               = "Dante De Ruwe"
 tagline               = "STUDENT // FULL-STACK DEVELOPER"
-primary_button        = "What I do"
+primary_button        = "View my work"
 primary_button_url    = "projects"
 secondary_button      = "Contact me!"
 secondary_button_url  = "contact"
