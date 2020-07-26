@@ -1,0 +1,17 @@
+{{with .Site.Data.about}}
+<section id="site-about">
+    {{$profilepic := "images/DanteDeRuwe.png" | absURL}}
+    <div id="profile-pic" style="background-image: url('{{$profilepic}}')"></div>
+    <div id="about-me-text">
+      <header>{{.title}}</header>
+      <div>
+          {{range .columns}}
+            <div class="about-item">
+                <h2>{{.title}}</h2>
+                <p>{{markdownify .text}}</p>
+            </div>
+        {{end}}
+      </div>
+    </div>
+  </section>
+{{end}}

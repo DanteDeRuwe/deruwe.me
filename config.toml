@@ -20,7 +20,7 @@ theme         = "deruwe.me"
     weight  = 1
   [[menu.nav]]
     name    = "About Me"
-    url     = "about"
+    url     = "#site-about"
     weight  = 2
   [[menu.nav]]
     name    = "Projects"

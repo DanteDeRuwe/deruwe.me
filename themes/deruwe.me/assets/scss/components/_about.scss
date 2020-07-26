@@ -1,0 +1,50 @@
+#site-about {
+    background-color: $secondary-color;
+    padding: 4rem 4rem;
+
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    gap: 1rem 5rem;
+    grid-template-areas: "pic title" "pic .";
+    
+    @include tablet {
+        grid-template-areas: "pic pic" ". .";
+        gap: 2rem 0;
+        padding: 2rem 3rem;
+    }
+
+    #profile-pic {
+        @include tablet {
+            margin:auto;
+        }
+        grid-area: pic;
+        width: 10rem;
+        height: 10rem;
+        background: {
+            size: cover;
+            position: center center;
+        }
+        border-radius: 50%;
+    }
+
+    header{
+        grid-area: title;
+        color: $primary-color;
+        text-transform: uppercase;
+        font-variant: small-caps;
+        margin: 0;
+        padding: 0;
+    }
+
+    .about-item{
+        @include tablet {
+            h2{
+                font-size: 1.5rem;
+            }
+            p{
+                font-size: .9rem;
+            }
+        }
+    }
+}
