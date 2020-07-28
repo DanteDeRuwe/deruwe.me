@@ -1,0 +1,53 @@
+{{ define "main" }}
+
+{{$paginator := (.Paginator 12)}}
+
+<header class="site-project-header">
+  <div class="container">
+        <div class="site-project-header-content">
+          <h1>{{ .Title | safeHTML }}</h1>
+          <h2>{{.Content}}<h2>
+        </div>
+  </div>
+</header>
+
+<section class="site-project" id="project">
+  <div class="container site-project-container">
+      {{ range $paginator.Pages }}
+      <article>
+        <a class="site-project-item-wrapper" href="{{ .Permalink }}">
+          <div class="site-project-item">
+            <div class="site-project-item-thumb">
+            {{if .Params.Image}}
+              <div class="img" style="background-image: url('{{ .Params.Image | absURL }}');'" alt="project-thumb">
+            {{else}}
+              <div class="no-img" alt="project-thumb"> <!-- TODO maybe placeholder -->
+            {{end}}
+            </div>
+            <div class="site-project-item-content">
+              {{if .Params.categories}}
+                  <span class="site-project-item-categories">{{ delimit .Params.categories ", " }}</span>
+              {{end}}
+              <h3>{{ .Title }}</h3>
+              <a class="read-more" href="{{ .Permalink }}"><span>read more</span> <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </a>
+
+        <div class="site-project-item-cta">
+            {{range .Params.cta}}
+              <a class="btn btn-secondary btn-rounded btn-sm" target="_blank" href={{.link}}><i class="{{.icon}}"></i><span>{{.text}}</span></a>
+            {{end}}
+        </div>
+      </article>
+      {{ end }}
+  </div>
+  {{if gt $paginator.TotalPages 1}}
+    <div class="container">
+      <div class="site-project-pagination">
+        {{ template "_internal/pagination.html" . }}
+      </div>
+    </div>
+  {{end}}
+</section>
+{{ end }}
