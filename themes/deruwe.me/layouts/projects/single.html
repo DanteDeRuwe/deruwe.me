@@ -17,7 +17,7 @@
               {{ with $.Site.GetPage (printf "/%s/%s" $taxonomy $tag) -}}
                 <!-- <a class="btn btn-outline-light" href="{{.Permalink}}"> -->
                 <span class="btn btn-outline-light" href="{{.Permalink}}">
-                    {{ replace (replace $tag "-sharp" "#") "_" " "}} <!--# in the tag name would give a netlify build error -->
+                    {{ replace (replace $tag "-sharp" "#") "dotnetcore" ".NET Core"}} <!--tag name would give a netlify build error -->
                 </span>
               {{- end -}} {{ end }} {{end}}
             </div>

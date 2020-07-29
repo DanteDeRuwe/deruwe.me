@@ -2,7 +2,7 @@
 date: 2020-06-30T00:00:00Z
 title: Zappr
 categories: [Web app]
-tags: [C-sharp, .NET_Core, API, Angular, GraphQL, Apollo, Typescript, SQLServer]
+tags: [C-sharp, dotnetcore, API, Angular, GraphQL, Apollo, Typescript, SQLServer]
 thumb: https://i.imgur.com/pn4EWZd.jpg
 images:
   [
