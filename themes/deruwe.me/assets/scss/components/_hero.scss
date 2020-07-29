@@ -56,6 +56,31 @@
       }
     }
   }
+  &-icons {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    position: fixed;
+    justify-content: center;
+    gap: 1rem;
+    height: 100vh;
+    left: 2rem;
+    top: 0;
+    i {
+      color: $text-color;
+      &:hover {
+        color: darken($text-color, 20);
+      }
+    }
+    @include mobile {
+      flex-direction: row;
+      position: relative;
+      height: fit-content;
+      left: 0;
+      gap: 2rem;
+      margin-top: 1rem;
+    }
+  }
   &-scroll {
     position: absolute;
     left: 50%;

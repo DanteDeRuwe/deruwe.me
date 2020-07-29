@@ -8,6 +8,15 @@
           <div class="site-hero-content text-center">
             <h1>{{ .heading }}</h1>
             <h6>{{ .tagline }}</h6>
+
+            <div class="site-hero-icons">
+                {{range $.Site.Data.social.icons}}
+                    {{if .highlight}}
+                        <a href="{{.link}}" target="_blank"><i class="{{.class}}"></i></a>
+                    {{end}}
+                {{end}}
+            </div>
+
             <ul class="site-hero-content-buttons">
               <li>
                 <a href="{{ .primary_button_url | absURL }}" class="btn btn-secondary btn-offset">
