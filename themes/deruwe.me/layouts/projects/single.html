@@ -1,0 +1,50 @@
+{{ define "main" }}
+
+<section class="site-project-single-section">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div class="site-project-single">
+          <header>
+            <span class="site-project-item-categories">{{ delimit .Params.categories ", " }}</span>
+            <h1>
+              {{ .Title }}
+            </h1>
+            <div class="site-project-item-tags">
+              {{ $taxonomy := "tags" }} 
+              {{ with .Param $taxonomy }} 
+              {{ range $index, $tag := . }} 
+              {{ with $.Site.GetPage (printf "/%s/%s" $taxonomy $tag) -}}
+                <!-- <a class="btn btn-outline-light" href="{{.Permalink}}"> -->
+                <span class="btn btn-outline-light" href="{{.Permalink}}">
+                    {{ replace (replace $tag "-sharp" "#") "_" " "}} <!--# in the tag name would give a netlify build error -->
+                </span>
+              {{- end -}} {{ end }} {{end}}
+            </div>
+            {{if .Params.cta}}
+            <div class="site-project-single-cta">
+                {{range .Params.cta}}
+                  <a class="btn btn-secondary btn-rounded btn-sm" target="_blank" href={{.link}}><i class="{{.icon}}"></i><span>{{.text}}</span></a>
+                {{end}}
+            </div>
+            {{end}}
+          </header>
+
+          {{if .Params.images}}
+          <div class="site-project-single-images">
+              {{range .Params.images}}
+                <a href="{{.}}" target="_blank"><img src="{{.}}"></a>
+              {{end}}
+          </div>
+          {{end}}
+
+          <div class="site-project-single-description">
+            {{ .Content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

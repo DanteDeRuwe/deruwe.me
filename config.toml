@@ -22,3 +22,5 @@ primary_button_url    = "projects"
 secondary_button      = "Contact me!"
 secondary_button_url  = "contact"
     
+[markup.goldmark.renderer]
+unsafe= true

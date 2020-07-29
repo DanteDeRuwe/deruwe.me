@@ -18,8 +18,8 @@
         <a class="site-project-item-wrapper" href="{{ .Permalink }}">
           <div class="site-project-item">
             <div class="site-project-item-thumb">
-            {{if .Params.Image}}
-              <div class="img" style="background-image: url('{{ .Params.Image | absURL }}');'" alt="project-thumb">
+            {{if .Params.thumb}}
+              <div class="img" style="background-image: url('{{ .Params.thumb | absURL }}');" alt="project-thumb">
             {{else}}
               <div class="no-img" alt="project-thumb"> <!-- TODO maybe placeholder -->
             {{end}}
