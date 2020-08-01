@@ -25,11 +25,11 @@ fields:
   label: cta
   fields:
   - type: text
+    name: text
+    label: text
+  - type: text
     name: icon
     label: icon
   - type: text
     name: link
     label: link
-  - type: text
-    name: text
-    label: text
