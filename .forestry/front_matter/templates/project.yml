@@ -1,0 +1,35 @@
+---
+label: Project
+hide_body: false
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: title
+  label: title
+- type: list
+  name: categories
+  label: categories
+- type: list
+  name: tags
+  label: tags
+- type: file
+  name: thumb
+  label: thumb
+- type: image_gallery
+  name: images
+  label: images
+- type: field_group_list
+  name: cta
+  label: cta
+  fields:
+  - type: text
+    name: icon
+    label: icon
+  - type: text
+    name: link
+    label: link
+  - type: text
+    name: text
+    label: text
