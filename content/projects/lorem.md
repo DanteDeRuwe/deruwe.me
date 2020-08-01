@@ -1,14 +1,14 @@
 ---
-date: 2020-05-29T00:00:00Z
 title: Lorem
+date: 2020-05-29T00:00:00Z
 categories: [Web app, desktop app]
 tags: [C-sharp, dotnetcore, MVC, Java, JavaFX, SQLServer]
-thumb: https://imgur.com/6qQgGBY.png
+thumb: "https://imgur.com/6qQgGBY.png"
 images: []
 cta:
-  - icon: "fab fa-youtube"
-    link: https://www.youtube.com/watch?v=FLArvyB73Ik
-    text: video demo
+  - text: video demo
+    icon: "fab fa-youtube"
+    link: "https://www.youtube.com/watch?v=FLArvyB73Ik"
 ---
 
 ## Demo

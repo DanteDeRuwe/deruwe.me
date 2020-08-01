@@ -16,7 +16,7 @@
   
       <div class="collapse navbar-collapse" id="sitenavbar">
         <ul class="navbar-nav ml-auto main-nav">
-          {{$menu := (.Site.Data.nav)}} 
+          {{$menu := (.Site.Data.nav.items)}} 
           {{$len := (len $menu)}} 
           {{ range $index, $element := $menu }} 
             {{ if eq (add $index 1) $len }}
