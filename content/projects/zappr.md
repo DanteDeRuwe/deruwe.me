@@ -3,20 +3,20 @@ date: 2020-06-30T00:00:00Z
 title: Zappr
 categories: [Web app]
 tags: [C-sharp, dotnetcore, API, Angular, GraphQL, Apollo, Typescript, SQLServer]
-thumb: https://i.imgur.com/pn4EWZd.jpg
+thumb: "https://i.imgur.com/pn4EWZd.jpg"
 images:
   [
-    https://i.imgur.com/iJFQzvw.jpg,
-    https://i.imgur.com/pn4EWZd.jpg,
-    https://i.imgur.com/KyPes5C.png,
-    https://i.imgur.com/G3ohxjF.png,
+    "https://i.imgur.com/iJFQzvw.jpg",
+    "https://i.imgur.com/pn4EWZd.jpg",
+    "https://i.imgur.com/KyPes5C.png",
+    "https://i.imgur.com/G3ohxjF.png",
   ]
 cta:
   - icon: "fab fa-github"
-    link: https://github.com/dantederuwe-hogent/zappr-frontend
+    link: "https://github.com/dantederuwe-hogent/zappr-frontend"
     text: frontend
   - icon: "fab fa-github"
-    link: https://github.com/dantederuwe-hogent/zappr-backend
+    link: "https://github.com/dantederuwe-hogent/zappr-backend"
     text: backend
 ---
 
