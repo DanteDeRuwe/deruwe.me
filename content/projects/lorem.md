@@ -1,15 +1,30 @@
 ---
+date: 2020-05-29T00:00:00.000+00:00
 title: Lorem
-date: 2020-05-29T00:00:00Z
-categories: [Web app, desktop app]
-tags: [C-sharp, dotnetcore, MVC, Java, JavaFX, SQLServer]
-thumb: "https://imgur.com/6qQgGBY.png"
+categories:
+- Web app
+- desktop app
+tags:
+- C-sharp
+- dotnetcore
+- MVC
+- Java
+- JavaFX
+- SQLServer
+thumb: https://imgur.com/6qQgGBY.png
 images: []
 cta:
-  - text: video demo
-    icon: "fab fa-youtube"
-    link: "https://www.youtube.com/watch?v=FLArvyB73Ik"
+- icon: fab fa-youtube
+  link: https://www.youtube.com/watch?v=FLArvyB73Ik
+  text: video demo
+
 ---
+
+## About the project
+
+Lorem is an event management system for events organized by the IT Lab of Ghent University College. The events are added in a desktop application by teachers and staff, and students can register for these events in a web application. Staff can also manage attendances, as certain events reward the students with extra credits for their attendance.  
+  
+This project was built for the course "Projects and workshops II" of my education in Applied Information technology. It is for educational purposes only.
 
 ## Demo
 
@@ -20,7 +35,7 @@ _in Dutch_
 
 ## Screenshots
 
----
+***
 
 ### Web Application
 
