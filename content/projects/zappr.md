@@ -44,7 +44,7 @@ This is the homepage of the application. Here you can find TV shows that air tod
 
 #### Authentication
 
-Naast het bladeren door series kunt u ook _een account maken_ en hiermee inloggen om zo toegang te krijgen tot verdere features. Other than browsing through series, you can _make an account_ and log in, to gain access to other features.
+Other than browsing through series, you can _make an account_ and log in, to gain access to other features.
 
 #### Favorites and watchlist
 
