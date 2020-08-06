@@ -19,6 +19,9 @@ images:
 - https://i.imgur.com/KyPes5C.png
 - https://i.imgur.com/G3ohxjF.png
 cta:
+- icon: fas fa-bolt
+  link: https://zappr.deruwe.me
+  text: Live Webapp
 - icon: fab fa-github
   link: https://github.com/dantederuwe-hogent/zappr-frontend
   text: frontend
