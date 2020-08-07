@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="{{ $bootstrap.Permalink }}" />
 
     {{ "<!-- Main Stylesheets -->" | safeHTML }}
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     {{ $style := resources.Get "scss/style.scss" | resources.ToCSS | minify }}
     <link href="{{ $style.Permalink }}" rel="stylesheet" />
   
