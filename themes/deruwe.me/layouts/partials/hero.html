@@ -12,7 +12,7 @@
             <div class="site-hero-icons">
                 {{range $.Site.Data.social.icons}}
                     {{if .highlight}}
-                        <a href="{{.link}}" target="_blank"><i class="{{.class}}"></i></a>
+                        <a rel="noopener" href="{{.link}}" target="_blank"><i class="{{.class}}"></i></a>
                     {{end}}
                 {{end}}
             </div>

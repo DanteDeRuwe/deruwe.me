@@ -24,7 +24,7 @@
             {{if .Params.cta}}
             <div class="site-project-single-cta">
                 {{range .Params.cta}}
-                  <a class="btn btn-secondary btn-rounded btn-sm" target="_blank" href={{.link}}><i class="{{.icon}}"></i><span>{{.text}}</span></a>
+                  <a rel="noopener" class="btn btn-secondary btn-rounded btn-sm" target="_blank" href={{.link}}><i class="{{.icon}}"></i><span>{{.text}}</span></a>
                 {{end}}
             </div>
             {{end}}
@@ -33,7 +33,7 @@
           {{if .Params.images}}
           <div class="site-project-single-images">
               {{range .Params.images}}
-                <a href="{{.}}" target="_blank"><img src="{{.}}"></a>
+                <a rel="noopener" href="{{.}}" target="_blank"><img src="{{.}}"></a>
               {{end}}
           </div>
           {{end}}
