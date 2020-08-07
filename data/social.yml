@@ -1,31 +1,31 @@
 icons:
-  - class: "fab fa-linkedin"
+  - class: "iconify icon:fa-brands:linkedin"
     link: "https://linkedin.com/in/DanteDeRuwe"
     highlight: true
-  - class: "fab fa-github"
+  - class: "iconify icon:fa-brands:github"
     link: "https://github.com/DanteDeRuwe"
     highlight: true
-  - class: "fab fa-github-square"
+  - class: "iconify icon:fa-brands:github-square"
     link: "https://github.com/dantederuwe-hogent"
     highlight: false
-  - class: "fab fa-stack-overflow"
+  - class: "iconify icon:fa-brands:stack-overflow"
     link: "https://stackoverflow.com/users/12641623/dante"
     highlight: false
-  - class: "fab fa-twitter"
+  - class: "iconify icon:fa-brands:twitter"
     link: "https://twitter.com/DanteDeRuwe"
     highlight: false
-  - class: "fab fa-facebook-messenger"
+  - class: "iconify icon:fa-brands:facebook-messenger"
     link: "https://m.me/DanteDeRuwe"
     highlight: true
-  - class: "fab fa-facebook"
+  - class: "iconify icon:fa-brands:facebook"
     link: "https://facebook.com/DanteDeRuwe"
     highlight: false
-  - class: "fab fa-instagram"
+  - class: "iconify icon:fa-brands:instagram"
     link: "https://instagram.com/DanteDeRuwe"
     highlight: false
-  - class: "fab fa-hackerrank"
+  - class: "iconify icon:fa-brands:hackerrank"
     link: "https://hackerrank.com/DanteDeRuwe"
     highlight: false
-  - class: "fab fa-spotify"
+  - class: "iconify icon:fa-brands:spotify"
     link: "https://open.spotify.com/user/1110047932"
     highlight: false

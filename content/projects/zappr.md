@@ -19,13 +19,13 @@ images:
 - https://i.imgur.com/KyPes5C.png
 - https://i.imgur.com/G3ohxjF.png
 cta:
-- icon: fas fa-bolt
+- icon: iconify icon:fa-brands:bolt
   link: https://zappr.deruwe.me
   text: Live Webapp
-- icon: fab fa-github
+- icon: iconify icon:fa-brands:github
   link: https://github.com/dantederuwe-hogent/zappr-frontend
   text: frontend
-- icon: fab fa-github
+- icon: iconify icon:fa-brands:github
   link: https://github.com/dantederuwe-hogent/zappr-backend
   text: backend
 

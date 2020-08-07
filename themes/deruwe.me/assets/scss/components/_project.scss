@@ -162,9 +162,6 @@
       transform: translateY(0.5rem);
 
       .btn {
-        i {
-          margin-right: 0.4rem;
-        }
         span {
           font-size: 0.7rem;
           font-weight: 600;
@@ -176,7 +173,7 @@
       opacity: 0;
       color: $text-color;
       text-decoration: none;
-      i {
+      .iconify {
         font-size: 75%;
       }
     }
@@ -270,9 +267,6 @@
       gap: 0.4rem;
       flex: 1 1 auto;
       .btn {
-        i {
-          margin-right: 0.4rem;
-        }
         span {
           font-size: 0.7rem;
           font-weight: 600;

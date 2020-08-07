@@ -4,6 +4,12 @@
   color: $white !important;
   padding: 1rem 2rem;
   border-radius: 0;
+
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  justify-content: flex-start;
+
   &:focus {
     box-shadow: none;
   }

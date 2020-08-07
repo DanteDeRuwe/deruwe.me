@@ -1,0 +1,8 @@
+i,
+.iconify {
+  fill: $text-color;
+  color: $text-color;
+  &:hover {
+    color: darken($text-color, 20);
+  }
+}

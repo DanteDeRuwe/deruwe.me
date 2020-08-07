@@ -14,8 +14,8 @@ tags:
 thumb: https://imgur.com/6qQgGBY.png
 images: []
 cta:
-- icon: fab fa-youtube
-  link: https://www.youtube.com/watch?v=FLArvyB73Ik
+- icon: "iconify icon:fa-brands:youtube"
+  link: "https://www.youtube.com/watch?v=FLArvyB73Ik"
   text: video demo
 
 ---
