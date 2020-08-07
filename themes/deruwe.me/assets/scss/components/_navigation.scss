@@ -39,10 +39,14 @@
 
       &.btn {
         margin-top: 0.4rem;
+        justify-content: center;
       }
     }
     &:last-child {
-      margin-left: 15px;
+      margin-left: 2rem;
+      @include mobile {
+        margin: 0;
+      }
     }
   }
   .navbar-toggler {
