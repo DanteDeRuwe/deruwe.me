@@ -1,0 +1,23 @@
+.site-contact {
+  padding: 150px 0 100px;
+  @include mobile {
+    padding: 120px 0 100px;
+  }
+  &-title {
+    font-weight: 700;
+    @include tablet {
+      font-size: 40px;
+    }
+    span {
+      color: $primary-color;
+    }
+  }
+
+  &-form {
+    margin-top: 20px;
+    input,
+    textarea {
+      color: $text-color !important;
+    }
+  }
+}

@@ -1,5 +1,41 @@
 {{ define "main" }}
-    <div style="height:20rem; display: flex; justify-content: center; align-items: center; text-align:center">
-        <em>Contact form under construction.<br>You can email me at <a href="mailto:dantederuwe@gmail.com">dantederuwe@gmail.com</a></em>
+<section class="site-contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5">
+        <h1 class="site-contact-title">
+          {{ .Title | safeHTML }}
+        </h1>
+        <small class="site-contact-subtitle">{{ .Content | safeHTML }}</small>
+      </div>
+      <div class="col-lg-6 ml-auto">
+        <div class="site-contact-form">
+          <form id="contact-form" name="contact" method="POST" netlify>
+            <div class="row">
+              <div class="col-lg-6">
+                <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+              </div>
+              <div class="col-lg-6">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+              </div>
+              
+              <div class="col-12">
+                <textarea class="form-control" id="message" name="message" rows="6" placeholder="Message"></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary" id="contact-form-button">
+                  <span class="btn-area">
+                    <span data-text="Send">
+                      Send
+                    </span>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
-{{ end }} 
+  </div>
+</section>
+{{ end }}
