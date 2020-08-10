@@ -19,7 +19,7 @@ images:
 - https://i.imgur.com/KyPes5C.png
 - https://i.imgur.com/G3ohxjF.png
 cta:
-- icon: iconify icon:fa-brands:bolt
+- icon: iconify icon:fa-solid:bolt
   link: https://zappr.deruwe.me
   text: Live Webapp
 - icon: iconify icon:fa-brands:github
