@@ -1,0 +1,22 @@
+{
+  "name": "deruwe.me",
+  "version": "1.0.0",
+  "description": "My personal website at [deruwe.me](https://deruwe.me) or [dante.deruwe.me](https://dante.deruwe.me).",
+  "dependencies": {
+    "medium-zoom": "^1.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanteDeRuwe/deruwe.me.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanteDeRuwe/deruwe.me/issues"
+  },
+  "homepage": "https://github.com/DanteDeRuwe/deruwe.me#readme"
+}
