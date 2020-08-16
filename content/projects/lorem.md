@@ -43,12 +43,12 @@ _in Dutch_
 
 <div class="site-project-single-images" style="margin-top:-1rem">
 
-[![](https://i.imgur.com/jAsqFfm.png)](https://i.imgur.com/jAsqFfm.png)
-[![](https://i.imgur.com/KjQqKAz.png)](https://i.imgur.com/KjQqKAz.png)
-[![](https://i.imgur.com/su3uba2.png)](https://i.imgur.com/su3uba2.png)
-[![](https://i.imgur.com/lTPWO9R.png)](https://i.imgur.com/lTPWO9R.png)
-[![](https://i.imgur.com/rfUKEBv.png)](https://i.imgur.com/rfUKEBv.png)
-[![](https://i.imgur.com/P20WTQr.png)](https://i.imgur.com/P20WTQr.png)
+![](https://i.imgur.com/jAsqFfm.png)
+![](https://i.imgur.com/KjQqKAz.png)
+![](https://i.imgur.com/su3uba2.png)
+![](https://i.imgur.com/lTPWO9R.png)
+![](https://i.imgur.com/rfUKEBv.png)
+![](https://i.imgur.com/P20WTQr.png)
 
 </div>
 
@@ -58,9 +58,9 @@ Modular JavaFX desktop application
 
 <div class="site-project-single-images" style="margin-top:-1rem">
 
-[![](https://i.imgur.com/1OkXask.png)](https://i.imgur.com/1OkXask.png)
-[![](https://i.imgur.com/l5OgMdA.png)](https://i.imgur.com/l5OgMdA.png)
-[![](https://i.imgur.com/bz4AF75.png)](https://i.imgur.com/bz4AF75.png)
-[![](https://i.imgur.com/aCrWrzh.png)](https://i.imgur.com/aCrWrzh.png)
+![](https://i.imgur.com/1OkXask.png)
+![](https://i.imgur.com/l5OgMdA.png)
+![](https://i.imgur.com/bz4AF75.png)
+![](https://i.imgur.com/aCrWrzh.png)
 
 </div>

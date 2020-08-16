@@ -1,3 +1,12 @@
+mediumZoom("[data-zoomable], .site-project-single-images img", {
+  background: "rgba(10,9,25,.9)",
+  scrollOffset: 0,
+  container: {
+    top: 150,
+    bottom: 150,
+  },
+});
+
 $(document).ready(function () {
   "use strict";
   // Scroll to top

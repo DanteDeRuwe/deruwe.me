@@ -11,7 +11,11 @@
 </footer>
 {{end}}
 
+
+<script src="/js/medium-zoom.min.js"></script>
+
 {{ $script := resources.Get "js/vendor.js" | minify }}
 <script src="{{ $script.Permalink }}"></script>
+
 {{ $script := resources.Get "js/script.js" | minify }}
 <script src="{{ $script.Permalink }}"></script>

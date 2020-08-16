@@ -24,3 +24,9 @@ secondary_button_url  = "contact"
     
 [markup.goldmark.renderer]
 unsafe= true
+
+
+[module]
+  [[module.mounts]]
+    source = "node_modules/medium-zoom/dist/medium-zoom.min.js"
+    target = "static/js/medium-zoom.min.js"
