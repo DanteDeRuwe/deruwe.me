@@ -1,7 +1,7 @@
 .site-project {
   padding: 120px 0;
   overflow: hidden;
-
+  max-width: 100vw;
   &-header {
     padding: 10rem 0 5rem;
     background: $secondary-color;
@@ -68,15 +68,13 @@
     @include desktop {
       gap: 5rem;
     }
-
-    article {
-      min-width: 25rem;
-    }
   }
   &-item {
     position: relative;
     margin-bottom: 30px;
     transition: all 0.3s ease-in;
+    max-width: 80vw;
+    min-width: 20rem;
     &-wrapper {
       text-decoration: none !important;
     }
@@ -128,6 +126,7 @@
     &-content {
       position: absolute;
       background: lighten($secondary-color, 7);
+      box-sizing: -box;
       width: 100%;
       padding: 2rem 3rem;
       bottom: -5rem;

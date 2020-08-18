@@ -4,6 +4,8 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
+  width: 100vw;
+  max-width: calc(100vw - calc(100vw - 100%));
   grid-template-areas: "nav" "main" "footer";
   nav {
     grid-area: nav;
