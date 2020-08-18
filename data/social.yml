@@ -5,11 +5,11 @@ icons:
   - class: "iconify icon:fa-brands:github"
     link: "https://github.com/DanteDeRuwe"
     highlight: true
-  - class: "iconify icon:fa-brands:github-square"
-    link: "https://github.com/dantederuwe-hogent"
-    highlight: false
   - class: "iconify icon:fa-brands:stack-overflow"
     link: "https://stackoverflow.com/users/12641623/dante"
+    highlight: false
+  - class: "iconify icon:fa-brands:hackerrank"
+    link: "https://hackerrank.com/DanteDeRuwe"
     highlight: false
   - class: "iconify icon:fa-brands:twitter"
     link: "https://twitter.com/DanteDeRuwe"
@@ -23,8 +23,8 @@ icons:
   - class: "iconify icon:fa-brands:instagram"
     link: "https://instagram.com/DanteDeRuwe"
     highlight: false
-  - class: "iconify icon:fa-brands:hackerrank"
-    link: "https://hackerrank.com/DanteDeRuwe"
+  - class: "iconify icon:fa-brands:youtube"
+    link: "https://youtube.com/dantederuwe"
     highlight: false
   - class: "iconify icon:fa-brands:spotify"
     link: "https://open.spotify.com/user/1110047932"
