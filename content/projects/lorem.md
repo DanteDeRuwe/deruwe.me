@@ -15,6 +15,9 @@ thumb: https://imgur.com/6qQgGBY.png
 images: []
 cta:
 - icon: iconify icon:fa-brands:github
+  link: https://github.com/DanteDeRuwe/lorem-desktop
+  text: desktop app
+- icon: iconify icon:fa-brands:github
   link: https://github.com/DanteDeRuwe/lorem-web
   text: web application
 - icon: iconify icon:fa-brands:youtube
