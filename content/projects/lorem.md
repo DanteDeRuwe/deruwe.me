@@ -14,12 +14,14 @@ tags:
 thumb: https://imgur.com/6qQgGBY.png
 images: []
 cta:
-- icon: "iconify icon:fa-brands:youtube"
-  link: "https://www.youtube.com/watch?v=FLArvyB73Ik"
+- icon: iconify icon:fa-brands:github
+  link: https://github.com/DanteDeRuwe/lorem-web
+  text: web application
+- icon: iconify icon:fa-brands:youtube
+  link: https://www.youtube.com/watch?v=FLArvyB73Ik
   text: video demo
 
 ---
-
 ## About the project
 
 Lorem is an event management system for events organized by the IT Lab of Ghent University College. The events are added in a desktop application by teachers and staff, and students can register for these events in a web application. Staff can also manage attendances, as certain events reward the students with extra credits for their attendance.  
