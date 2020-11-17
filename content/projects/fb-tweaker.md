@@ -6,6 +6,10 @@ tags = ["Javascript", "HTML", "CSS"]
 thumb = "/uploads/fb-tweaker-promo.jpg"
 title = "FB Tweaker"
 [[cta]]
+icon = "iconify icon:whh:chrome"
+link = "https://chrome.google.com/webstore/detail/facebook-tweaker/ffglihjjhchocakebjgbkkbblhlghmcj"
+text = "chrome web store page"
+[[cta]]
 icon = "iconify icon:fa-brands:github"
 link = "https://github.com/dantederuwe/fb-tweaker"
 text = "source code"
@@ -19,8 +23,4 @@ With FB Tweaker you can hide sponsored messages, stories, rooms, and the right s
 
 ### How to install
 
-I'm planning to release this on the chrome webstore. For now, you can:
-
-1. [download the project as a zip file](https://github.com/DanteDeRuwe/fb-tweaker/archive/master.zip "download FB Tweaker!")
-2. enable developer mode in the extension settings of your browser
-3. drag and drop the downloaded zip in the extensions list
+[Get Facebook Tweaker on the Chrome Web Store](https://chrome.google.com/webstore/detail/facebook-tweaker/ffglihjjhchocakebjgbkkbblhlghmcj "Get Facebook Tweaker") (for chromium-based browsers like Chrome and Edge)
