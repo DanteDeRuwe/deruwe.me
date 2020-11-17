@@ -27,8 +27,8 @@ cta:
 ---
 ## About the project
 
-Lorem is an event management system for events organized by the IT Lab of Ghent University College. The events are added in a desktop application by teachers and staff, and students can register for these events in a web application. Staff can also manage attendances, as certain events reward the students with extra credits for their attendance.  
-  
+Lorem is an event management system for events organized by the IT Lab of Ghent University College. The events are added in a desktop application by teachers and staff, and students can register for these events in a web application. Staff can also manage attendances, as certain events reward the students with extra credits for their attendance.
+
 This project was built for the course "Projects and workshops II" of my education in Applied Information technology. It is for educational purposes only.
 
 ## Demo
@@ -69,3 +69,9 @@ Modular JavaFX desktop application
 ![](https://i.imgur.com/aCrWrzh.png)
 
 </div>
+
+## Co-creators
+
+* [Sam Brysbaert](https://github.com/sam-brysbaert)
+* [Liam Spitaels](https://github.com/liamspitaels)
+* [Arne De Schrijver](https://github.com/ArneDeSchrijver)
