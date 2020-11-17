@@ -1,7 +1,6 @@
 +++
 categories = ["Chrome Extension"]
 date = 2020-11-16T23:00:00Z
-draft = true
 images = ["/uploads/fb-tweaker-promo.jpg"]
 tags = ["Javascript", "HTML", "CSS"]
 thumb = "/uploads/fb-tweaker-promo.jpg"
