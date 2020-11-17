@@ -14,14 +14,14 @@ text = "source code"
 +++
 ## About the project
 
-FB Tweaker is a Chrome/Edge extension that provides you with multiple ways to make the Facebook website more pleasant.  
-  
+FB Tweaker is a Chrome/Edge extension that provides you with multiple ways to make the Facebook website more pleasant.
+
 With FB Tweaker you can hide sponsored messages, stories, rooms, and the right sidebar
 
 ### How to install
 
 I'm planning to release this on the chrome webstore. For now, you can:
 
-1. download \[the project as a zip\]([https://github.com/DanteDeRuwe/fb-tweaker/archive/master.zip](https://github.com/DanteDeRuwe/fb-tweaker/archive/master.zip "download FB Tweaker!")) as a zip file
+1. [download the project as a zip file](https://github.com/DanteDeRuwe/fb-tweaker/archive/master.zip "download FB Tweaker!")
 2. enable developer mode in the extension settings of your browser
 3. drag and drop the downloaded zip in the extensions list
