@@ -3,7 +3,7 @@ categories = ["Chrome Extension"]
 date = 2020-11-16T23:00:00Z
 draft = true
 images = ["/uploads/fb-tweaker-promo.jpg"]
-tags = ["Javascript"]
+tags = ["CSS", "HTML", "Javascript"]
 thumb = "/uploads/fb-tweaker-promo.jpg"
 title = "FB Tweaker"
 [[cta]]
