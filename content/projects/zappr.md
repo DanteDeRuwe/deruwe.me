@@ -30,12 +30,14 @@ cta:
   text: backend
 
 ---
+> Note: as of January 2021, the backend for this web-app is offline. The frontend is still up, but not much content will be shown.
+
 ## About the project
 
 Zappr is a web application that enhances your local TV community.
 
-This project was initially built for the course Web Applications IV of my education in Applied Information technology. I now continue it in my free time.  
-  
+This project was initially built for the course Web Applications IV of my education in Applied Information technology. I now continue it in my free time.
+
 Zappr is for educational purposes only.
 
 ### Features
