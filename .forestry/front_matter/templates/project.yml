@@ -34,4 +34,5 @@ fields:
     name: link
     label: link
 pages:
+- content/projects/damien-experience.md
 - content/projects/fb-tweaker.md
