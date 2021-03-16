@@ -37,9 +37,9 @@ This project was built for the course "Projects III" of my education in Applied 
 
 #### **Methodologies**
 
-**Agile (Scrum)** 
+**Agile (Scrum)**
 
-During this project, the Agile principle was used, more specifically with the agile methodology “Scrum”. We worked in sprints of 2 weeks in which we always held a so-called planning poker session at the beginning of that sprint. Everyone had full say in the estimates of each user story. Furthermore, a stand-up was also done almost daily in groups where an evaluation was made of what had been completed, what had priority, and who was going to work on what. This made it possible to keep everyone up to date on the status of the project at all times. Often the tasks were also further divided here. At the end of the sprints, a retrospective was organized to discuss how we can do better next time. 
+During this project, the Agile principle was used, more specifically with the agile methodology “Scrum”. We worked in sprints of 2 weeks in which we always held a so-called planning poker session at the beginning of that sprint. Everyone had full say in the estimates of each user story. Furthermore, a stand-up was also done almost daily in groups where an evaluation was made of what had been completed, what had priority, and who was going to work on what. This made it possible to keep everyone up to date on the status of the project at all times. Often the tasks were also further divided here. At the end of the sprints, a retrospective was organized to discuss how we can do better next time.
 
 **Pair programming**
 
@@ -47,12 +47,20 @@ The main approach during programming was to use pair programming. This is a stra
 
 **Test driven design (TDD) and testing in general:**
 
-We wrote most of our tests before writing the actual code. making refactoring and keeping a consistent code style possible. It also ensured our code was designed "testable" by default.  
-  
+We wrote most of our tests before writing the actual code. making refactoring and keeping a consistent code style possible. It also ensured our code was designed "testable" by default.
+
 We also made sure that tests were automated: with every pull request on Github, a so-called Github Action will automatically run all tests. The pull request can only be merged if all tests pass.
 
 Initially, it went very well to maintain this discipline, but as the project got bigger and smaller optimizations had to be done, the tests were kept less and less up-to-date. Certainly a work point, but we are still proud of the test suite we now have.
 
 **Version control**
 
-The master branch of each Github repository was locked and feature branches and pull requests were used. Each pull request had to be checked and approved by at least  1 reviewer. It is therefore not possible to make a change alone. This ensures that a "fresh look" is cast at the code. We have always tried to be consistent in this by having as many reviews as possible done by team members who did not participate in the feature itself.
+The master branch of each Github repository was locked and feature branches and pull requests were used. Each pull request had to be checked and approved by at least  1 reviewer. It is therefore not possible to make a change alone. This ensures that a "fresh look" is cast at the code. We have always tried to be consistent in this by having as many reviews as possible done by team members who did not participate in the feature itself.  
+  
+### Fellow team members
+
+- [@simonbettens](https://github.com/simonbettens)
+- [@JonasHaenebalcke](https://github.com/JonasHaenebalcke)
+- [@NaudtsRuben](https://github.com/naudtsruben)
+- [@LucasVanderHaegen](https://github.com/LucasVanderHaegen)
+- [@JordyVanKerkvoorde](https://github.com/JordyVanKerkvoorde)
