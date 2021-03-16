@@ -1,7 +1,7 @@
 +++
 categories = ["android app", "web app"]
 date = 2020-12-19T23:00:00Z
-images = []
+images = ["/uploads/damienhero.png"]
 tags = ["c-sharp", "dotnetcore", "api", "angular", "typescript", "android", "kotlin"]
 thumb = "/uploads/damienhero.png"
 title = "Damien Experience"
