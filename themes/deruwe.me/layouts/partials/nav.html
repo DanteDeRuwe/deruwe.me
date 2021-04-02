@@ -1,48 +1,42 @@
 <nav class="navbar navbar-expand-lg site-navigation">
-    <div class="container">
-      <a class="navbar-brand" href="{{ .Site.BaseURL }}">
-        {{ .Site.Params.Brand }}
-      </a>
-      <button
-        class="navbar-toggler collapsed"
-        type="button"
-        data-toggle="collapse"
-        data-target="#sitenavbar"
-      >
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-  
-      <div class="collapse navbar-collapse" id="sitenavbar">
-        <ul class="navbar-nav ml-auto main-nav">
-          {{$menu := (.Site.Data.nav.items)}} 
-          {{$len := (len $menu)}} 
-          {{ range $index, $element := $menu }} 
-            {{ if eq (add $index 1) $len }}
-            <li class="nav-item">
-              <a
-                class="nav-link btn btn-sm btn-primary btn-rounded"
-                href="{{ .url | absURL }}"
-              >
-                <span class="btn-area">
-                  <span data-text="{{ .name }}">
-                    {{ .name }}
-                  </span>
-                </span>
-              </a>
-            </li>
-            {{ else }}
-            <li class="nav-item">
-              {{if .scroll}}
-                <a class="nav-link scroll-to" href="{{ .url | absURL}}{{.scroll}}">{{ .name }}</a>
-              {{else}}
-                <a class="nav-link" href="{{ .url | absURL }}">{{ .name }}</a>
-              {{end}}
-            </li>
-            {{ end }} 
-          {{ end }}
-        </ul>
-      </div>
+  <div class="container">
+    <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+      {{ .Site.Params.Brand }}
+    </a>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#sitenavbar">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="sitenavbar">
+      <ul class="navbar-nav ml-auto main-nav">
+        {{$menu := (.Site.Data.nav.items)}}
+        {{$len := (len $menu)}}
+        {{ range $index, $element := $menu }}
+        {{ if eq (add $index 1) $len }}
+        <li class="nav-item">
+          <a class="nav-link btn btn-sm btn-primary btn-rounded" href="{{ .url | absURL }}">
+            <span class="btn-area">
+              <span data-text="{{ .name }}">
+                {{ .name }}
+              </span>
+            </span>
+          </a>
+        </li>
+        {{ else }}
+        <li class="nav-item">
+          {{if .scroll}}
+          <a class="nav-link scroll-to" href="{{ .url | absURL}}{{.scroll}}">{{ .name }}</a>
+          {{else if hasPrefix .url "http"}}
+          <a class="nav-link" href="{{ .url | absURL }}" target="_blank">{{ .name }}</a>
+          {{else}}
+          <a class="nav-link" href="{{ .url | absURL }}">{{ .name }}</a>
+          {{end}}
+        </li>
+        {{ end }}
+        {{ end }}
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>

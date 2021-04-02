@@ -4,10 +4,12 @@ items:
     url:
   - name: About Me
     url:
-    scroll: "#site-about"
+    scroll: '#site-about'
   - name: Projects
     url: projects
   - name: CV
     url: https://cv.deruwe.me
+  - name: Blog
+    url: https://dev.to/dantederuwe
   - name: Contact
     url: contact
