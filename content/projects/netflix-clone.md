@@ -8,7 +8,7 @@ tags:
 - React
 - Typescript
 - Microfrontends
-thumb: https:/i.imgur.com/CH4qSIy.png
+thumb: https://i.imgur.com/CH4qSIy.png
 images:
 - https://i.imgur.com/sQjrWzw.gif
 - https://i.imgur.com/VM2Xmn2.gif
