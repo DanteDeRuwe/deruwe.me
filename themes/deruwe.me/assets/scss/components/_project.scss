@@ -198,7 +198,7 @@
         .img {
           filter: blur(3px);
           &:after {
-            content: "";
+            content: '';
             display: block;
             position: absolute;
             width: 100%;

@@ -1,17 +1,17 @@
 {{with .Site.Data.about}}
 <section id="site-about" class="container-fluid">
-    {{$profilepic := "images/DanteDeRuwe.webp" | absURL}}
-    <div id="profile-pic" style="background-image: url('{{$profilepic}}')"></div>
-    <div id="about-me-text">
-      <header>{{.header}}</header>
-      <div>
-          {{range .columns}}
-            <div class="about-item">
+  {{$profilepic := "images/DanteDeRuwe.webp" | absURL}}
+  <div id="profile-pic" style="background-image: url('{{$profilepic}}')"></div>
+  <div id="about-me-text">
+    <header>{{.header}}</header>
+    <div>
+      {{range .columns}}
+      <div class="about-item">
         <h3>{{.title}}</h3>
-                <p>{{markdownify .text}}</p>
-            </div>
-        {{end}}
+        <p>{{markdownify .text}}</p>
       </div>
+      {{end}}
     </div>
-  </section>
+  </div>
+</section>
 {{end}}

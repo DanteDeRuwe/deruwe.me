@@ -6,7 +6,7 @@ body {
   min-height: 100vh;
   width: 100vw;
   max-width: calc(100vw - calc(100vw - 100%));
-  grid-template-areas: "nav" "main" "footer";
+  grid-template-areas: 'nav' 'main' 'footer';
   nav {
     grid-area: nav;
   }
@@ -64,11 +64,11 @@ select.form-control {
 .select-wrapper {
   position: relative;
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     width: 16px;
     height: 10px;
-    background: url("../images/angle-down-select.svg");
+    background: url('../images/angle-down-select.svg');
     background-size: contain;
     background-repeat: no-repeat;
     right: 15px;

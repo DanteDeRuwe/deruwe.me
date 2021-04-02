@@ -1,13 +1,13 @@
 {{with .Site.Data.social}}
 <footer class="site-footer">
-    <div class="container">
-      <div class="site-footer-social">
-        {{range .icons}}
-          <a rel="noopener" href="{{.link}}" target="_blank"><i class="{{.class}}"></i></a>
-        {{end}}
-      </div>
+  <div class="container">
+    <div class="site-footer-social">
+      {{range .icons}}
+      <a rel="noopener" href="{{.link}}" target="_blank"><i class="{{.class}}"></i></a>
+      {{end}}
     </div>
-    <small class="site-footer-copyright">Made with ☕ by Dante De Ruwe - © {{now.Format "2006"}}</small>
+  </div>
+  <small class="site-footer-copyright">Made with ☕ by Dante De Ruwe - © {{now.Format "2006"}}</small>
 </footer>
 {{end}}
 
