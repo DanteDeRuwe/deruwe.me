@@ -3,15 +3,19 @@ header: Who is Dante De Ruwe?
 columns:
   - title: A Young Belgian Student
     text: >
-      In my education I learn current and established technologies at a rapid pace. The technical skills I
-      built during my years as a student include .NET Core with C#, Angular with Typescript, database
-      management, agile methodologies, software architecture, and several others.
+      Welcome! I'm Dante, a backend (and often full-stack) software developer
+      and student Applied Information Technology (also known as Applied Computer
+      Science) at Ghent University College, looking to become the IT
+      professional of the future. I'm currently finishing my bachelor thesis
+      about the microfrontend architecture pattern, and doing an international
+      internship in Munich, Germany!
   - title: A Passionate Developer
     text: >
-      In my free time I like to research the technologies of tomorrow or those who are not taught by my
-      education program. I enjoy challenging myself to keep learning. I have a very scientific and
-      experimental mindset, and I’m rather curious and inquisitive.
+      My passion is designing and building software solutions, mainly with C#
+      and .NET. I am fascinated by software architecture, clean code, and
+      software design.
   - title: An Enthusiastic Guy
     text: >
-      Enthusiastic, eager to learn and always looking for a challenge; this sums me up quite well. 
-      I like to engage in a whole bunch of different activities and projects.
+      Enthusiastic, eager to learn, and always looking for a challenge. In my
+      free time, I like to cook, sing, play the guitar, and laugh at my own
+      jokes.
