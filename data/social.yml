@@ -1,14 +1,17 @@
 ---
 icons:
-- class: iconify icon:fa-brands:dev
-  link: https://dev.to/dantederuwe
-  highlight: true
 - class: iconify icon:fa-brands:linkedin
   link: https://linkedin.com/in/DanteDeRuwe
   highlight: true
 - class: iconify icon:fa-brands:github
   link: https://github.com/DanteDeRuwe
   highlight: true
+- class: iconify icon:fa-brands:dev
+  link: https://dev.to/dantederuwe
+  highlight: true
+- class: iconify icon:fa-brands:youtube
+  link: https://youtube.com/dantederuwe
+  highlight: false
 - class: iconify icon:fa-brands:stack-overflow
   link: https://stackoverflow.com/users/12641623/dante
   highlight: false
@@ -26,9 +29,6 @@ icons:
   highlight: false
 - class: iconify icon:fa-brands:instagram
   link: https://instagram.com/DanteDeRuwe
-  highlight: false
-- class: iconify icon:fa-brands:youtube
-  link: https://youtube.com/dantederuwe
   highlight: false
 - class: iconify icon:fa-brands:spotify
   link: https://open.spotify.com/user/1110047932
