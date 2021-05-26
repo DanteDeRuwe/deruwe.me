@@ -2,7 +2,7 @@
 categories = ["Modular web app"]
 date = 2021-05-06T22:00:00Z
 images = ["/uploads/demo.gif"]
-tags = ["Piral", "Blazor", "C#", "Typescript", "React"]
+tags = ["Piral", "Blazor", "C-sharp", "Typescript", "React"]
 thumb = "/uploads/spiralfy-tablet-greenbg.jpg"
 title = "Spiralfy"
 [[cta]]
