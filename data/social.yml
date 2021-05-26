@@ -1,6 +1,6 @@
 ---
 icons:
-- class: iconify icon:bx:bxl-dev-to
+- class: iconify icon:fa-brands:dev
   link: https://dev.to/dantederuwe
   highlight: true
 - class: iconify icon:fa-brands:linkedin
