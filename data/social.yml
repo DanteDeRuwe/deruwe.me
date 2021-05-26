@@ -20,7 +20,7 @@ icons:
   highlight: false
 - class: iconify icon:fa-brands:facebook-messenger
   link: https://m.me/DanteDeRuwe
-  highlight: true
+  highlight: false
 - class: iconify icon:fa-brands:facebook
   link: https://facebook.com/DanteDeRuwe
   highlight: false
