@@ -2,16 +2,9 @@
 title: About
 header: Who is Dante De Ruwe?
 columns:
-- title: A Young Belgian Student
-  text: 'Welcome! I''m Dante, a full-stack software developer and student Applied
-    Information Technology (also known as Applied Computer Science) at Ghent University
-    of Applied Sciences and Arts, looking to become the IT professional of the future.
-    I''m currently finishing my bachelor thesis about the microfrontend architecture
-    pattern, and I just finished an international internship in Munich, Germany.
-
-'
 - title: A Passionate Developer
-  text: 'My passion is designing and building software solutions, mainly with C# and
+  text: 'I''m a full-stack software developer, looking to become the IT professional of the future. 
+    My passion is designing and building software solutions, mainly with C# and
     .NET. I am fascinated by software architecture, clean code, and software craftsmanship.
 
 '
