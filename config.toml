@@ -8,7 +8,7 @@ theme         = "deruwe.me"
   brand     = "Dante De Ruwe"
   dateFormat = "02 JAN 2006"
   # Meta data
-  description = "Personal website of Dante De Ruwe, student & developer from Flanders, Belgium."
+  description = "Personal website of Dante De Ruwe, a full-stack developer from Flanders, Belgium."
   author = "Dante De Ruwe"
 
 # Banner Section
